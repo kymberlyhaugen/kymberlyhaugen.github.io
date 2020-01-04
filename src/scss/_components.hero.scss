@@ -13,7 +13,8 @@
 .hero__background {
   position: absolute;
   bottom: 15%;
-  opacity: 4%;
+  opacity: .04;
   right: 17%;
   transform: scale(1.75) rotate(10deg);
+  z-index: 0;
 }
