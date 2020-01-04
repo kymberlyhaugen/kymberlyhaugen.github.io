@@ -3,37 +3,17 @@
 \*------------------------------------*/ 
 
 .hero {
-  //position: relative;
+  position: relative;
 
     @include tablet {
         padding-top: $nav-item-height-tablet + $nav-bar-padding-tablet;
     }
 }
 
-/*
-.hero:before {
-  content: "";
+.hero__background {
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 40%;
-  background: $primary-medium;
-  z-index: 0;
+  bottom: 15%;
+  opacity: 4%;
+  right: 17%;
+  transform: scale(1.75) rotate(10deg);
 }
-.hero:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 27%;
-  bottom: 0;
-  left: 0;
-  background: url('../img/hero-deco.svg') no-repeat top right;
-  z-index: 0;
-}
-
-.hero--content {
-  position: relative;
-  z-index: 10;
-}
-*/
