@@ -4,6 +4,7 @@
 
 .hero {
   position: relative;
+  overflow: hidden;
 
     @include tablet {
         padding-top: $nav-item-height-tablet + $nav-bar-padding-tablet;
