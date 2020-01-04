@@ -67,7 +67,7 @@
       $nav-icon-image-height: .889rem;
       $nav-icon-margin-bottom: .278rem;
       $nav-icon-total-height: $nav-icon-image-height + $nav-icon-margin-bottom;
-      $nav-item-padding-top-mobile: .611rem;
+      $nav-item-padding-top-mobile: 1.250rem;
       $nav-font-size-mobile: 1rem;
       $nav-item-height-mobile: ( $nav-font-size-mobile * $body-line-height) + $nav-icon-total-height + ($nav-item-padding-top-mobile * 2); // get total height of a nav item so we can offset the body on mobile for fixed tabs
 
