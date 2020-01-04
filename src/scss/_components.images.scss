@@ -1,0 +1,14 @@
+/*------------------------------------*\
+  #Images
+\*------------------------------------*/ 
+
+
+.image--featured {
+    box-shadow: $shadow-level-2;
+}
+
+.image--circle {
+  border-radius: 50%;
+  border: 5px solid $secondary;
+  box-shadow: $shadow-level-2;
+}

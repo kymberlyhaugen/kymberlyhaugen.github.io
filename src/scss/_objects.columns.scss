@@ -1,0 +1,26 @@
+/*------------------------------------*\
+  #Columns
+\*------------------------------------*/ 
+
+
+// Variations
+
+  // Larger Gaps
+
+  .columns--large {
+    margin-left: (-$column-gap-large);
+    margin-right: (-$column-gap-large);
+    margin-top: (-$column-gap-large);
+  }
+
+  .columns--large:last-child {
+    margin-bottom: (-$column-gap-large);
+  }
+  
+  .columns--large:not(:last-child) {
+    margin-bottom: calc(#{$column-gap-large*2} - #{$column-gap-large});
+  }
+
+  .columns--large > .column {
+    padding:  $column-gap-large;
+  } 
