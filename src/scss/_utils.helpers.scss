@@ -127,28 +127,28 @@
 
   // Colors
   .has-divider--bold-to-secondary {
-    & svg[id^="divider-"] #border {
+    & svg[id^="divider-"] polygon[id^="border"] {
       fill: $primary-medium;
     }
-    & svg[id^="divider-"] #background {
+    & svg[id^="divider-"] polygon[id^="background"] {
       fill: $secondary-light;
     }
   }
 
   .has-divider--secondary-to-white {
-    & svg[id^="divider-"] #border {
+    & svg[id^="divider-"] polygon[id^="border"] {
       fill: $secondary-lightest;
     }
-    & svg[id^="divider-"] #background {
+    & svg[id^="divider-"] polygon[id^="background"] {
       fill: $white;
     }
   }
 
   .has-divider--white-to-secondary {
-    & svg[id^="divider-"] #border {
+    & svg[id^="divider-"] polygon[id^="border"] {
       fill: $secondary;
     }
-    & svg[id^="divider-"] #background {
+    & svg[id^="divider-"] polygon[id^="background"] {
       fill: $secondary-light;
     }
   }
