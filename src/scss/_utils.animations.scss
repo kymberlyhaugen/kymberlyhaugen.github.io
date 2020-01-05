@@ -27,6 +27,11 @@
   }
   
 
-  .fade-in-right {
+html.js [data-animation="fade-in-right"] {
+  opacity: 0; // when JS is not turned off, mark fade animation items as invisible
+}
+
+.fade-in-right {
 	animation: fade-in-right 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
+
