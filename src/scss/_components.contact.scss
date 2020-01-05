@@ -1,0 +1,21 @@
+/*------------------------------------*\
+  #Contact
+\*------------------------------------*/ 
+
+.contact {
+  position: relative;
+  overflow: hidden;
+}
+
+.contact__background {
+  position: absolute;
+  right: 25%;
+  bottom: 20%;
+  transform: scale(20) rotate(-12deg);
+  opacity: .05;
+  z-index: 0;
+}
+
+.contact__background #email {
+  fill: $secondary;
+}
