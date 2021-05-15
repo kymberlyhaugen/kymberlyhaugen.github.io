@@ -37,20 +37,21 @@
   },
   "homepage": "https://github.com/kymberlyhaugen/kymberlyhaugen.github.io#readme",
   "devDependencies": {
-    "@babel/core": "^7.13.14",
-    "@babel/preset-env": "^7.13.12",
-    "autoprefixer": "^9.8.6",
+    "@babel/core": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
     "babelify": "^10.0.0",
     "browserify": "^16.5.2",
     "bulma": "^0.8.2",
     "node-sass": "^4.14.1",
     "npm-run-all": "^4.1.5",
     "onchange": "^6.1.1",
-    "postcss-cli": "^7.1.2",
     "rimraf": "^3.0.2",
-    "uglify-js": "^3.13.3"
+    "uglify-js": "^3.13.6"
   },
   "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.15",
+    "postcss-cli": "^8.3.1",
     "smooth-scroll": "^16.1.3",
     "waypoints": "^4.0.1"
   }
